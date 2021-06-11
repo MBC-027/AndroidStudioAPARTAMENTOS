@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:background="@drawable/fondodegradado">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="153dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/b_i_e_n_v_e_n_i_d_o"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Correo"
+        android:text="@string/correo"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/Contraseña"
+        android:text="@string/contrase_a"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_below="@+id/Correo"
+        android:layout_marginTop="76dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_below="@+id/Contraseña"
+        android:layout_marginTop="145dp"
+        android:text="@string/confirmar" />
+</RelativeLayout>

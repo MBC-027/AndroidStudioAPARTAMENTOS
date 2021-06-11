@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_casa"
+        android:contentDescription="@string/img" />
+
+    <Button
+        android:id="@+id/btnapartamentos"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#4188D3"
+        android:text="@string/apartamentos" />
+
+    <Button
+        android:id="@+id/btnrequisitos"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#4188D3"
+        android:text="@string/requisitos_para_arrendar" />
+
+    <Button
+        android:id="@+id/btncontacto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#4188D3"
+        android:text="@string/contacto" />
+
+
+
+    <Button
+        android:id="@+id/btnservicios"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#4188D3"
+        android:text="@string/servicios" />
+
+
+
+</LinearLayout>

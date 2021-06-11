@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondodegradado"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="577dp"
+        android:layout_height="96dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/requisitos_para_arrendar_una_propiedad"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="541dp"
+        android:layout_height="679dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/inquilino_carta_laboral_ultima_colilla_de_pago_fotocopia_de_la_cedula_al_150_extractos_bancarios_si_los_tiene_y_o_planilla_de_pago_de_la_eps_deudor_solidario_laboral_carta_laboral_ultima_colilla_de_pago_fotocopia_de_la_cedula_ampliada_al_150_extractos_bancarios_si_los_tiene_y_o_planilla_de_pago_de_la_eps_deudor_solidario_con_propiedad_raiz_fotocopia_de_la_cedula_al_150_certificado_de_libertad_y_tradici_n_reciente_este_no_pude_tener_afectacion_a_vivienda_familiar_embargo_patrimonio_esufructo_folio_cerrado_las_propiedades_deben_estar_ubicadas_en_ciudades"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
